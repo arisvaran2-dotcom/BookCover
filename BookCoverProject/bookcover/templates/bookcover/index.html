@@ -1,0 +1,43 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Back Cover</title>
+    <link rel="stylesheet" href="{% static 'bookcover/style.css' %}">
+</head>
+<body>
+
+    <div class="book-cover">
+
+        <h1>THE POWER OF DREAMS</h1>
+
+        <h3>Believe in Yourself</h3>
+
+        <img src="{% static 'bookcover/book.png' %}"
+             alt="Book Image" class="book-image">
+
+        <p class="description">
+            Every great achievement begins with a dream.
+            This book inspires you to believe in yourself,
+            overcome challenges and achieve your goals.
+            Discover the power of positive thinking and
+            create a successful future.
+        </p>
+
+        <h3>About the Author</h3>
+
+        <p class="author">
+            Written by John David, a motivational writer
+            who inspires people to follow their dreams
+            and live a successful life.
+        </p>
+
+        <p class="website">www.powerofdreams.com</p>
+
+        <p class="price">Price: Rs. 299</p>
+
+    </div>
+
+</body>
+</html>
